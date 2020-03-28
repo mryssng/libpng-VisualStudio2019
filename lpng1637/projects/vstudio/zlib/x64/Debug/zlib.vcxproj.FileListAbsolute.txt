@@ -1,0 +1,2 @@
+C:\Users\ja053157\Desktop\libharu\lpng1637\projects\vstudio\x64\Debug\zlib.pdb
+C:\Users\ja053157\Desktop\libharu\lpng1637\projects\vstudio\zlib\x64\Debug\zlib.pdb

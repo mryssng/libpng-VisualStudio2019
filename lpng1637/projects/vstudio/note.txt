@@ -1,0 +1,15 @@
+前提条件：
+ zlib-1.2.11
+
+変更点：
+1 lpng1637\projects\vstudio\zlib.props の修正
+	<ZLibSrcDir>..\..\..\..\zlib</ZLibSrcDir>
+	を下記に修正
+	<ZLibSrcDir>..\..\..\..\zlib-1.2.11</ZLibSrcDir>
+
+2 zlibのファイル
+	zlib-1.2.11\zconf.h.included　をコピーして　"zconf.h"　にファイル名を変更
+
+
+3 libpng, pngstest, pngtest, pngunknown, pngvalid, zlib(いずれも'すべての構成')
+	構成プロパティ -> C++ -> 全般 -> 警告をエラーとして扱う　を　'$(TreatWarningAsError)' から 'いいえ (/WX-)' に変更
