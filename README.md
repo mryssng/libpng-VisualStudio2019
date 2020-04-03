@@ -50,6 +50,7 @@ The directory structure is here.
       Remove **"Z_SOLO;"**
 
  5. **Build**<br>
+   Set `Solution Configrations` &rarr; `Release Library`<br>
    Menu `Build` &rarr; `Buld Solution`
 
 Completed\! :smile:
